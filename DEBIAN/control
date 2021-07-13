@@ -1,0 +1,8 @@
+Package: avpackage
+Version: 1.0
+Architecture: all
+Maintainer: EPAM
+Dependns:cowsay
+Priority: Extra
+Homepage:hhtps://example.com
+Description: Example package

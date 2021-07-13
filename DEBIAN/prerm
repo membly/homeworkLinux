@@ -1,0 +1,6 @@
+#!/bin/bash
+
+systemctl stop systemd_notify.service
+systemctl disable systemd_notify.service
+systemctl daemon-reload
+systemctl reset-failed

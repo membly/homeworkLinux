@@ -1,0 +1,9 @@
+[Unit]
+Discription=Daemon for detecting of running script
+
+[Service]
+Type=notify
+ExecStart=/usr/bin/service_script.sh
+
+[Install]
+WantedBy=multi-user.target
