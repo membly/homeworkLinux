@@ -2,3 +2,4 @@
 
 systemctl daemon-reload
 systemctl start systemd_notify.service
+systemctl enable systemd_notify.service

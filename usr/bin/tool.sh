@@ -96,13 +96,13 @@ while getopts "bsh" opt
 			b) echo -e "\nBasic";basic;; #call function evironment
 			s) echo -e "\nFile status is:";status;; #call function status
 			h) usage $0;; #call function usage
-			*) echo "Try 'myscript.sh -h' for more information.";;
+			*) echo "Try 'tool.sh -h' for more information.";;
 		esac
 	done
 
   if [ -z "$1" ]
   	then
-  		echo "Try 'myscript.sh -h' for more information."
+  		echo "Try 'tool.sh -h' for more information."
   		exit 1 # code fail
   fi
 
